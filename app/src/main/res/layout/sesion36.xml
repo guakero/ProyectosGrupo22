@@ -30,28 +30,43 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/opCarro"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#3EC343"
         android:orientation="vertical">
 
-        <CheckBox
-            android:id="@+id/checkBox2"
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CheckBox" />
+            android:text="Forma de transporte"
+            android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/opBici"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CheckBox" />
+            android:text="Bicicleta" />
 
         <CheckBox
-            android:id="@+id/checkBox4"
+            android:id="@+id/opMoto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CheckBox" />
+            android:text="moto" />
+
+        <CheckBox
+            android:id="@+id/opCarro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="carro" />
+
+        <Button
+            android:id="@+id/enviar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="obternerForma"
+            android:text="enviar" />
     </LinearLayout>
 
 </LinearLayout>
