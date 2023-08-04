@@ -19,7 +19,9 @@
         android:id="@+id/contenido2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity=""
         android:layout_margin="10dp"
+        android:layout_weight="0"
         android:background="#FFEB3B"
         android:gravity="center"
         android:orientation="horizontal">
@@ -43,7 +45,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:checked="true"
             android:text="CheckBox" />
+        <Button
+            android:layout_width=""
+            android:layout_height=""
 
     </LinearLayout>
 
